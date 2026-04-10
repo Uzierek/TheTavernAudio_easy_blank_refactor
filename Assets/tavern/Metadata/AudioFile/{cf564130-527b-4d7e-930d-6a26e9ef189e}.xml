@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{cf564130-527b-4d7e-930d-6a26e9ef189e}">
+		<property name="assetPath">
+			<value>walk/walk_stone1.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.35810416666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dc0d2292-3301-4b35-b7c7-65b7810e82c0}</destination>
+		</relationship>
+	</object>
+</objects>

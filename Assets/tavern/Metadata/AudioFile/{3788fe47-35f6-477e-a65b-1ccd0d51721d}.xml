@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3788fe47-35f6-477e-a65b-1ccd0d51721d}">
+		<property name="assetPath">
+			<value>walk/walk_wood3.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.50039583333333337</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dc0d2292-3301-4b35-b7c7-65b7810e82c0}</destination>
+		</relationship>
+	</object>
+</objects>
