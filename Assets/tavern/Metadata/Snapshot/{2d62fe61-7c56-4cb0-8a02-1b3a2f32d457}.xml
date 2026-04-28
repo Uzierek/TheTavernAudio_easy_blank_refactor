@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{2d62fe61-7c56-4cb0-8a02-1b3a2f32d457}">
+		<property name="name">
+			<value>Outside</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{4a0bbb0d-282f-464e-8032-000223849544}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{3499e23d-a2d2-4573-8603-d92193e0e50a}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{73f9920c-b2f7-4879-841d-a0bac02216dc}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{bf376902-6089-42ce-b29e-bd65c60e3a83}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{babc1208-3df0-421d-8ed9-9c1520f77c40}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{8d3a1642-7484-4f2a-879d-cc169c7a9f83}</destination>
+			<destination>{e9bbb49a-f015-4e7b-b44d-df86aa6fd284}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{113b862f-236f-4aa3-bafe-999f182dc39a}</destination>
+			<destination>{1ec9c0d4-8feb-44e9-aaff-0eb59ebd0ed1}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{3499e23d-a2d2-4573-8603-d92193e0e50a}" />
+	<object class="MarkerTrack" id="{73f9920c-b2f7-4879-841d-a0bac02216dc}" />
+	<object class="Timeline" id="{bf376902-6089-42ce-b29e-bd65c60e3a83}" />
+	<object class="SnapshotMasterTrack" id="{babc1208-3df0-421d-8ed9-9c1520f77c40}" />
+	<object class="SnapshotProperty" id="{8d3a1642-7484-4f2a-879d-cc169c7a9f83}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{d0f6a89d-5227-4cdc-b46a-2598b234fc6a}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{e1c693f3-7052-4a9a-8e75-12d16e4aa977}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{e9bbb49a-f015-4e7b-b44d-df86aa6fd284}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-8</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{7d69193e-b6a5-48e0-81d4-05addb50ac94}</destination>
+		</relationship>
+		<relationship name="automatableObject">
+			<destination>{aaa9a782-85e8-441a-bcc9-f6b956b67a12}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{113b862f-236f-4aa3-bafe-999f182dc39a}">
+		<relationship name="mixerStrip">
+			<destination>{e1c693f3-7052-4a9a-8e75-12d16e4aa977}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{1ec9c0d4-8feb-44e9-aaff-0eb59ebd0ed1}">
+		<relationship name="mixerStrip">
+			<destination>{aaa9a782-85e8-441a-bcc9-f6b956b67a12}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{d0f6a89d-5227-4cdc-b46a-2598b234fc6a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>500</value>
+		</property>
+		<property name="peakValue">
+			<value>1.5</value>
+		</property>
+		<property name="sustainValue">
+			<value>-2</value>
+		</property>
+		<property name="releaseTime">
+			<value>2600</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{7d69193e-b6a5-48e0-81d4-05addb50ac94}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>value</value>
+		</property>
+		<property name="initialValue">
+			<value>10</value>
+		</property>
+		<property name="attackTime">
+			<value>2000</value>
+		</property>
+		<property name="releaseTime">
+			<value>500</value>
+		</property>
+		<property name="finalValue">
+			<value>10</value>
+		</property>
+	</object>
+</objects>

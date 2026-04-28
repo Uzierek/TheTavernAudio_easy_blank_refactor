@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: Assets/tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639114144227664970
+  lastModified: 639129763611438465
   FileSizes:
   - Name: Desktop
-    Value: 4426464
+    Value: 4427840
   Exists: 1
 --- !u!114 &-5162203785732593447
 MonoBehaviour:
@@ -84,9 +84,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/footsteps/surface
+  m_Name: parameter:/footsteps/Footsteps_surface
   m_EditorClassIdentifier: 
-  Name: surface
+  Name: Footsteps_surface
   StudioPath: 
   Min: 0
   Max: 1
@@ -97,8 +97,8 @@ MonoBehaviour:
   Type: 2
   IsGlobal: 0
   Labels:
-  - wood
-  - stone
+  - Wood
+  - Stone
   Exists: 1
 --- !u!114 &-2972029875586895153
 MonoBehaviour:
@@ -179,13 +179,14 @@ MonoBehaviour:
   - {fileID: 1255327890074100873}
   - {fileID: 5408103481418320851}
   - {fileID: 1351615951491049041}
+  - {fileID: 3194162034682659233}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5253324005620381823}
   StringsBanks:
   - {fileID: 8129609753925512815}
   cacheVersion: 131859
-  cacheTime: 639114144227685370
+  cacheTime: 639129763611448460
   SerializableEventsDict:
   - key: event:/amb_tavern_people
     index: 0
@@ -201,6 +202,8 @@ MonoBehaviour:
     index: 5
   - key: event:/amb_tavern_music
     index: 6
+  - key: snapshot:/Outside
+    index: 7
 --- !u!114 &1255327890074100873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,6 +258,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 60003
+--- !u!114 &3194162034682659233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Outside
+  Guid:
+    Data1: 761462369
+    Data2: 1286634582
+    Data3: 974848650
+    Data4: 1473524271
+  Banks:
+  - {fileID: -5253324005620381823}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &3509384253353884013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,8 +380,8 @@ MonoBehaviour:
   Path: Assets/tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639114144227685370
+  lastModified: 639129763611448460
   FileSizes:
   - Name: Desktop
-    Value: 1184
+    Value: 1318
   Exists: 1
