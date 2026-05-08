@@ -687,6 +687,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1330636291972076, guid: cb181bc6c302bca40929333077286a04, type: 3}
       insertIndex: -1
       addedObject: {fileID: 159108037}
+    - targetCorrespondingSourceObject: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1192366621}
   m_SourcePrefab: {fileID: 100100000, guid: cb181bc6c302bca40929333077286a04, type: 3}
 --- !u!1 &159108029 stripped
 GameObject:
@@ -2499,6 +2502,7 @@ GameObject:
   - component: {fileID: 613997994}
   - component: {fileID: 613997995}
   - component: {fileID: 613997996}
+  - component: {fileID: 613997997}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2756,6 +2760,22 @@ MonoBehaviour:
       Data3: 974848650
       Data4: 1473524271
     Path: snapshot:/Outside
+--- !u!114 &613997997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68f4ed2e91580f4459a40df16f56ba56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalMuteActive: 0
+  musicMuteActive: 1
+  tavernMuteActive: 1
+  outsideMuteActive: 0
 --- !u!1 &688602384
 GameObject:
   m_ObjectHideFlags: 0
@@ -4083,6 +4103,40 @@ Transform:
   - {fileID: 1374169897}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1192366616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1742205292912966, guid: cb181bc6c302bca40929333077286a04, type: 3}
+  m_PrefabInstance: {fileID: 159108028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1192366621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192366616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3acf8d75e1714f8433f67364d416a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationDuration: 1
+  doorsOpened: 1
+  isRotating: 0
+  doorsEvent:
+    Guid:
+      Data1: 1148634810
+      Data2: 1142090350
+      Data3: 554970542
+      Data4: -45006539
+    Path: event:/doors
+  insideRoomSnap:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &1225706416
 GameObject:
   m_ObjectHideFlags: 0

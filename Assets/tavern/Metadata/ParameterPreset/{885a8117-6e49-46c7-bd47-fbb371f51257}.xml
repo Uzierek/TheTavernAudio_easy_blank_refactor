@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{885a8117-6e49-46c7-bd47-fbb371f51257}">
 		<property name="name">
-			<value>doors</value>
+			<value>Doors</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4bd90293-9d69-4272-9169-fca73b371bb0}</destination>
@@ -19,8 +19,8 @@
 			<value>2</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>open</value>
-			<value>close</value>
+			<value>Open</value>
+			<value>Close</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>

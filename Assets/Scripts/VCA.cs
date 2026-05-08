@@ -31,8 +31,13 @@ public class VCA : MonoBehaviour
         tavernVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Tavern_amb");
         outsideVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Outside_amb");
 
-        // Ustawia początkową głośność.
-        globalVCA.setVolume(DecibelToLinear(-100));
+
+        MuteStart(globalVCA, ref globalMuteActive);
+        MuteStart(musicVCA, ref musicMuteActive);
+        MuteStart(tavernVCA, ref tavernMuteActive);
+        MuteStart(outsideVCA, ref outsideMuteActive);
+     
+        
     }
 
     void Update()
@@ -64,6 +69,12 @@ public class VCA : MonoBehaviour
     private void ToggleMute(FMOD.Studio.VCA vca, ref bool muteFlag)
     {
         muteFlag = !muteFlag; // Odwraca stan wyciszenia.
+        float volume = muteFlag ? DecibelToLinear(-100) : DecibelToLinear(0);
+        vca.setVolume(volume);
+    }
+
+    private void MuteStart(FMOD.Studio.VCA vca, ref bool muteFlag)
+    {
         float volume = muteFlag ? DecibelToLinear(-100) : DecibelToLinear(0);
         vca.setVolume(volume);
     }
