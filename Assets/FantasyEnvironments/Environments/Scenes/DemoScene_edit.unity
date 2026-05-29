@@ -2733,11 +2733,11 @@ MonoBehaviour:
     Path: event:/jump
   landEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 604349281
+      Data2: 1124321261
+      Data3: 1820399527
+      Data4: 1808007160
+    Path: event:/land
   isGrounded: 1
   isJumping: 0
 --- !u!114 &613997996
